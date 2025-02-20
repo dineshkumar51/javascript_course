@@ -16,7 +16,11 @@ console.log("DataTypes");
 
 let variable;
 
-//JavaScript is Dynamically typed
+
+/*
+ Datatypes in java script
+ JavaScript is Dynamically typed
+*/
 
 console.log(variable);
 console.log(typeof variable);
@@ -40,6 +44,26 @@ console.log(typeof variable);
 variable = null;
 
 console.log(typeof variable);
+
+
+/*
+    Different ways of declaring variables
+    let vs var vs const
+
+    always use const if we are not going change the variable's value
+    Can't reassign a const variable and const can't be undefined
+    In later section we wil see the diff between these three in detail
+ */
+
+let firstName = 'Dinesh';
+
+var secondName = 'Kumar';
+
+const dateOfBirth = '15/12/2000';
+
+// dateOfBirth = '5/1/2000';
+
+// const rollNo;
 
 
 
