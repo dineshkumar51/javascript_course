@@ -11,3 +11,39 @@ console.log(country);
 console.log(continent);
 console.log(population);
 
+console.log("");
+console.log("DataTypes");
+
+let variable;
+
+//JavaScript is Dynamically typed
+
+console.log(variable);
+console.log(typeof variable);
+
+variable = 23;
+
+console.log(typeof variable);
+
+variable = 23.45;
+
+console.log(typeof variable);
+
+variable = 'Hello';
+
+console.log(typeof variable);
+
+variable = true;
+
+console.log(typeof variable);
+
+variable = null;
+
+console.log(typeof variable);
+
+
+
+
+
+
+
