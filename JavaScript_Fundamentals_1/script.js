@@ -109,6 +109,30 @@ console.log("I'am " + firstName + ' ' + secondName + ' and my age is ' + (currYe
 console.log(`I'am ${firstName} ${secondName} and my age is ${currYear - 2000}`);
 
 
+/*
+  Type Conversion - when converted thru code
+ */
+
+let yearStr = '1991';
+let year = Number(yearStr);
+console.log(year + 18);
+
+yearStr = String(year);
+
+console.log(Number("hello"));
+
+
+/*
+  Type Corecion - when converted by javascript itself
+ */
+
+console.log("My age is " + 23); // java script internaly converts 23 into string
+
+console.log('2' - 10);
+
+console.log('2' * '3');
+
+
 
 
 
