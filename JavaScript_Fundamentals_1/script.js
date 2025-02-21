@@ -66,6 +66,31 @@ const dateOfBirth = '15/12/2000';
 // const rollNo;
 
 
+/*
+Operators
+
+*/
+
+console.log(2 + 4);
+
+console.log(2 - 4);
+
+console.log(234 / 10);
+
+console.log(2 * 4);
+
+console.log(2 ** 4);//Power
+
+
+const currYear = 2025;
+const myAge = currYear - 2000;
+
+console.log(firstName + ' ' + secondName);
+
+console.log(myAge >= 18);
+
+
+
 
 
 
