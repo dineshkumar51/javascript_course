@@ -46,6 +46,7 @@ variable = null;
 console.log(typeof variable);
 
 
+
 /*
     Different ways of declaring variables
     let vs var vs const
@@ -66,9 +67,12 @@ const dateOfBirth = '15/12/2000';
 // const rollNo;
 
 
+
+
 /*
 Operators
 
+Operator_precedence : https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
 */
 
 console.log(2 + 4);
@@ -81,6 +85,12 @@ console.log(2 * 4);
 
 console.log(2 ** 4);//Power
 
+let x = 2;
+x += 2;
+x *= 2;
+x++;
+
+console.log(x);
 
 const currYear = 2025;
 const myAge = currYear - 2000;
@@ -88,6 +98,15 @@ const myAge = currYear - 2000;
 console.log(firstName + ' ' + secondName);
 
 console.log(myAge >= 18);
+
+
+
+/*
+    Strings and Template Literals
+*/
+
+console.log("I'am " + firstName + ' ' + secondName + ' and my age is ' + (currYear - 2000));
+console.log(`I'am ${firstName} ${secondName} and my age is ${currYear - 2000}`);
 
 
 
