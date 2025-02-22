@@ -194,6 +194,36 @@ if (favNum == 23) {
 }
 
 
+/*
+ * Switch Statement
+ */
+
+
+const day = 'monday';
+
+switch (day) {
+    case 'monday':
+        console.log('Learn Java');
+        console.log('Learn JavaScript');
+        break;
+    case 'tuesday':
+        console.log('Go to gym')
+        break;
+    case 'wednesday':
+        console.log('Learn LLD')
+        break;
+    case 'thursday':
+        console.log('Go to gym')
+        break;
+    case 'friday':
+        console.log('Go to HLD')
+        break;
+    default:
+        console.log('Enter a valid day');
+
+}
+
+
 
 
 
