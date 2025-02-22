@@ -164,6 +164,35 @@ if (testVariable) {
 
 
 
+/* 
+    Equality Operators == vs ===
+
+    ===, !== -> Strict
+    ==, != -> Loose - Js does the type Corecion
+
+    Note : always use Stricter version to avoid confusion
+*/
+
+console.log(23 === 23);
+
+console.log('23' === 23);
+
+console.log('23' == 23);
+
+const favNum = prompt("Enter your fav number");
+
+console.log(typeof favNum);
+
+// To avoid errors type convert favNum in case if your using only === for checking equality
+
+if (favNum === 23) {
+    console.log('23 is a amazing number (Strict)')
+}
+
+if (favNum == 23) {
+    console.log('23 is a amazing number (loose)')
+}
+
 
 
 
