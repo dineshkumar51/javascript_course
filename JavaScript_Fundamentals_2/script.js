@@ -11,7 +11,7 @@ if (hasPassed) hasDriverLicense = true; // hasDriverLicense - type error missing
 
 if (hasDriversLicense) console.log('congrats! you got the license');
 
-// in normal mode javascript won't cause any error since it will create new variable with the name hasDriverLicense
+// In normal mode javascript won't cause any error since it will create new variable with the name hasDriverLicense
 
 
 /*
@@ -36,5 +36,33 @@ console.log(makeJuice(3));
 console.log(makeJuice(2, 3, 4));
 
 //In java script you won't get any errors for arguments or return types.
+
+
+/*
+Function Declaration Vs Function Expression
+*/
+
+//Function Declaration - it can be called before its declaration
+
+console.log(findAge(1999));
+
+function findAge(birthYear) {
+    return 2025 - birthYear;
+}
+
+
+//Function Expression - Assign a anonimous function to a variable
+// Variable can be assigned with a function expression
+
+const findAgeFuture = function (birthYear) {
+    return 2040 - birthYear;
+}
+
+console.log(findAgeFuture(1999));
+
+
+
+
+
 
 
