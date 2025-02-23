@@ -80,3 +80,15 @@ const ageUntilRetirement = birthYear => {
 console.log(calAgeArrow(1998));
 console.log(addtwoNum(2, 3));
 console.log(ageUntilRetirement(1990));
+
+
+/*
+ * Arrays
+ */
+
+const array = ["Dinesh", "kumar", 34.56];
+array[3] = array;
+array[10] = "nandhini";
+
+
+console.log(array);
