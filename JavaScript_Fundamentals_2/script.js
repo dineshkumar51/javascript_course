@@ -63,6 +63,20 @@ console.log(findAgeFuture(1999));
 
 
 
+/*
+ *  Arrow Function
+ */
 
+const calAgeArrow = birthYear => 2025 - birthYear;
 
+const addtwoNum = (a, b) => a + b;
 
+const ageUntilRetirement = birthYear => {
+    const age = 2025 - birthYear;
+    const ageUntilRetirement = 65 - age;
+    return ageUntilRetirement;
+}
+
+console.log(calAgeArrow(1998));
+console.log(addtwoNum(2, 3));
+console.log(ageUntilRetirement(1990));
